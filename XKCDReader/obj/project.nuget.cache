@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "RIn/8AqqW80sVlDaIuiz51BiEC6dORD7WgX/FTzfvTctD+d8FEzFihLWfMDI13GiJ3RDQq5+879BhZY1xy8NCA==",
+  "success": true,
+  "projectFilePath": "/Users/kirkwon/Projects/DotNet-Razor-XKCD-Reader/XKCDReader/XKCDReader.csproj",
+  "expectedPackageFiles": [
+    "/Users/kirkwon/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/kirkwon/.nuget/packages/restsharp/109.0.1/restsharp.109.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

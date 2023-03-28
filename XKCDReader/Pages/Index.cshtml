@@ -1,0 +1,34 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "YA XKCD page";
+}
+
+<!--
+TODO style using https://www.layoutit.com/build
+-->
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>$(document).ready(function () {
+            $("#cartoonDiv").fadeIn(3000);
+        });</script>
+</head>
+
+<div class="text-center">
+
+    <h1>XKCD</h1>
+    <H3>from @Model.DateDisplay</H3>
+    <button class="button buttonGreen" onclick="window.location.href='@Model.PrevURL';">
+        Prev
+    </button>
+    <button class="button buttonBlue" onclick="window.location.href='@Model.NextURL';">
+        Next
+    </button>
+    <h2>@Model.Title</h2>
+
+    <div class="fade-in-image ">
+        <img alt="" src="@Model.URL" />
+    </div>
+</div>
+
